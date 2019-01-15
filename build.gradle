@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.chiangj'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    runtime group: "com.chiangj", name: "s-build-1", version: "1.0-SNAPSHOT"
+    compile group: "com.chiangj", name: "s-build-1", version: "1.0-SNAPSHOT"
+}
